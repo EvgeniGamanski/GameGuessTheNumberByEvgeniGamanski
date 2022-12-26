@@ -1,7 +1,7 @@
 function GuessANumber(){
 const readline=require('readline').createInterface({
     input:process.stdin,
-    output:process.stdout
+    output:process.stdout 
 });
 
 let computerGuess=Math.floor(Math.random()*100); 
